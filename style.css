@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+    background-color: black;
+}
+.menu {
+    display:block;
+    background:linear-gradient(black,#2b221d);
+    color:rgb(179, 171, 148);;
+    /*height:50px;*/
+    /*display: block;*/
+
+    border-bottom: 1px solid #463115;
+}
+.top_menu>li:nth-child(n+2) {
+    border-left: 0.5px solid #d2c9af;
+    padding-left: 125px;
+}
+.top_menu{
+    display:flex;
+    height:100%;
+    list-style-type:none;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_menu a
+{
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #d2c9af;
+}
+.logo{
+    width: 40%;
+    margin-left: 30%;
+    /*background: white;*/
+    height: 235px;
+}
+
+.light{
+    position: relative;
+}
+.l1 {
+    position: absolute;
+    z-index: 200;
+}
+.l2 {
+    float: right;
+    z-index: 100;
+}
+.lightning{
+    /*margin-bottom: 7%;*/
+    /*margin-left: 10%;*/
+}
+.Shape_Gradient{
+    position: absolute;
+    z-index: 38;
+}
+.Shape_Outer{
+    position: absolute;
+    z-index: 36;
+}
+
+.SEOExperts {
+    font-family: "Sansa";
+    color: rgb(232, 159, 57);
+    font-weight: bold;
+    margin-left: 15%;
+    z-index: 42;
+}
+.men{
+    position: absolute;
+    z-index: 7;
+    margin-top: -55px;
+    margin-right: 20%;
+}
+.main{
+    width: 40%;
+    margin-left: 30%;
+    background: white;
+    height: 200px;
+    z-index: 500;
+}
+.Shape_1_copy {
+    border-radius: 3px;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    left: 75px;
+    top: 240px;
+    width: 625px;
+    height: 162px;
+    z-index: 10;
+}
+section{
+    width: 33.33%;
+    font-size:17px;
+    font-family: "Arial";
+    color: rgba(0, 0, 0, 0.651);
+    text-align: left;
+    height: 50%;
+    margin-top: 5%;
+    float: left;
+    margin-right: 2%;
+}
+
+
+
+
+
+
